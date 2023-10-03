@@ -10,7 +10,7 @@ class Student {
         this.name = name;
         this.studentId = id++;
         this.courses = new ArrayList<>();
-System.out.println("Student id: " + studentId + " Name: " + name);
+
     }
 
     public void addCourse(Course course) {
@@ -28,6 +28,9 @@ System.out.println("Student id: " + studentId + " Name: " + name);
     public void printer() {
         for (Course course : courses)
             System.out.println(course);
+    }
+    public String toString(){
+        return "Student id: " + studentId + " Name: " + name;
     }
 
 

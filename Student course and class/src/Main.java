@@ -12,7 +12,7 @@ public class Main {
         student1.addCourse(course3);
 
         System.out.println(student1);
-        System.out.println(course1);
+        student1.printer();
 
         System.out.println("Average Grade is " + student1.averageGrade());
     }

@@ -7,7 +7,11 @@ class Course {
 public Course(String subject, int grade){
     this.subject = subject;
     this.grade = grade;
-    System.out.println(subject);
+
+    }
+    public String toString(){
+    return subject;
+
     }
 
 }
